@@ -1,0 +1,24 @@
+{
+  "name": "deploy-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "deploy-analyzer": "./cli.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "commander": "^13.1.0",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.0",
+    "glob": "^11.0.1",
+    "simple-git": "^3.27.0",
+    "uuid": "^11.1.0"
+  }
+}
